@@ -18,7 +18,7 @@ Page has CSS:
 The page body fades in on load: I set `opacity: 0` on `body` by default, then on the `window.onload` event I add a CSS `transition` and set `opacity` back to `1`, producing a simple one-second fade-in. This was a good introduction to combining inline JS style changes with CSS transitions to trigger animation.
 
 **Semantic HTML tags**
-Beyond the required structure, I used: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, `<table>`, `<img>`, and `<a>`. Using `<nav>` and `<section>` instead of generic `<div>`s took a bit of getting used to, since it meant thinking about the page as distinct regions (about / courses / experience) rather than one flat block of content.
+Beyond the required structure, I used: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, `<table>`, `<img>`, and `<a>`. 
 
 ## Design Achievements
 
@@ -36,4 +36,4 @@ All five are used directly in the CSS: `#274DEA` on the heading, `#8C4F45` on th
 I used Comic Neue from Google Fonts, applied to the whole page via the `body` selector.
 
 **LLM CITATION:**
-I used LLM to format the readme and make sure I met the requirements. I did my own research for most of the issues I faced but if the implementation and solution I found wasn't working for some reason I would ask the AI why. 
+I used LLM to format the readme and make sure I met the requirements. I did my own research for most of the issues I faced but if the implementation and solution I found wasn't working for some reason I would ask the AI why. I did my own research to meet the requirements.
